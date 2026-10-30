@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صيانة وتنظيف أفران الغاز</title>
+<style>
+  :root{ --char:#1f1a17; --deep:#3a2418; --flame:#e8590c; --cream:#fdf4ea; --white:#fff; --wa:#25d366; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{ font-family:'Tahoma','Segoe UI',sans-serif; background:var(--cream); color:#241a14; line-height:1.7; }
+
+  header.hero{
+    background: linear-gradient(160deg, var(--char) 0%, var(--deep) 50%, var(--flame) 130%);
+    color:var(--white); padding:56px 20px 72px; text-align:center;
+  }
+  .hero-icon{ width:68px; height:68px; margin:0 auto 14px; display:block; }
+  h1{ font-size:clamp(26px,6vw,38px); margin-bottom:10px; }
+  header p{ font-size:clamp(14px,3vw,17px); color:rgba(255,255,255,.9); max-width:440px; margin:0 auto; }
+
+  .cta-row{ display:flex; gap:14px; justify-content:center; margin-top:26px; flex-wrap:wrap; }
+  .btn{
+    display:flex; align-items:center; gap:10px; padding:14px 28px; border-radius:12px;
+    font-size:17px; font-weight:700; text-decoration:none; box-shadow:0 6px 18px rgba(0,0,0,.25);
+  }
+  .btn svg{ width:20px; height:20px; }
+  .btn-call{ background:var(--white); color:var(--char); }
+  .btn-wa{ background:var(--wa); color:var(--white); }
+
+  .chips{
+    max-width:640px; margin:-28px auto 0; padding:0 20px; position:relative;
+    display:grid; grid-template-columns:repeat(2,1fr); gap:12px;
+  }
+  .chip{
+    background:var(--white); border-radius:14px; padding:16px 12px; text-align:center;
+    font-weight:700; color:var(--deep); font-size:14.5px; box-shadow:0 8px 20px rgba(58,36,24,.12);
+  }
+  .chip svg{ width:26px; height:26px; color:var(--flame); display:block; margin:0 auto 6px; }
+
+  footer{ text-align:center; padding:28px 20px 90px; color:#6a554a; font-size:13px; }
+  footer .phone{ direction:ltr; display:inline-block; font-weight:700; color:var(--deep); font-size:15px; }
+
+  .sticky-bar{ position:fixed; bottom:0; left:0; right:0; display:flex; box-shadow:0 -4px 16px rgba(0,0,0,.14); }
+  .sticky-bar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:8px; padding:14px 10px; font-weight:700; text-decoration:none; color:#fff; }
+  .sticky-bar svg{ width:18px; height:18px; }
+  .sticky-bar .call{ background:var(--char); }
+  .sticky-bar .wa{ background:var(--wa); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <svg class="hero-icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1.5.6-2.5 1.5-3.5C10 8 11 6 12 2z"/>
+    <path d="M5 16h14v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4z"/>
+  </svg>
+  <h1>صيانة وتنظيف أفران الغاز</h1>
+  <p>تنظيف عميق وصيانة دقيقة لشعلة أقوى وطبخ أأمن</p>
+  <div class="cta-row">
+    <a class="btn btn-call" href="tel:+966530800216">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1l-2.2 2.4z"/></svg>
+      اتصال
+    </a>
+    <a class="btn btn-wa" href="https://wa.me/966530800216" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.4-.7-2.3-1.3-3.2-2.9-.2-.4.2-.3.6-1 .1-.2 0-.4 0-.5-.1-.1-.5-1.3-.7-1.8-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3z"/></svg>
+      واتساب
+    </a>
+  </div>
+</header>
+
+<section class="chips">
+  <div class="chip">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.2 5.8L20 10l-5.8 2.2L12 18l-2.2-5.8L4 10l5.8-2.2z"/></svg>
+    تنظيف عميق
+  </div>
+  <div class="chip">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1.5.6-2.5 1.5-3.5C10 8 11 6 12 2z"/></svg>
+    صيانة الشعلات
+  </div>
+  <div class="chip">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+    فحص التسريب
+  </div>
+  <div class="chip">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.2-.6-.6-2.2z"/></svg>
+    إصلاح الأعطال
+  </div>
+</section>
+
+<footer>
+  <p class="phone">0530800216</p>
+</footer>
+
+<div class="sticky-bar">
+  <a class="call" href="tel:+966530800216">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1l-2.2 2.4z"/></svg>
+    اتصال
+  </a>
+  <a class="wa" href="https://wa.me/966530800216" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.4-.7-2.3-1.3-3.2-2.9-.2-.4.2-.3.6-1 .1-.2 0-.4 0-.5-.1-.1-.5-1.3-.7-1.8-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3z"/></svg>
+    واتساب
+  </a>
+</div>
+
+</body>
+</html>
